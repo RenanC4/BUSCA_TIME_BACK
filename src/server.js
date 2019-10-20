@@ -5,7 +5,7 @@ const cors = require('cors')
 const routes = require('./routes')
 
 const server = express()
-mongoose.connect('mongodb+srv://buscatime:buscatime@btcluster-rwc9z.mongodb.net/buscatime?retryWrites=true&w=majority', {
+mongoose.connect('', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
